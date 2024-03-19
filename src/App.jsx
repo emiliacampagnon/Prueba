@@ -1,14 +1,17 @@
-import Footer  from "./Footer.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import { Home } from "./components/Home.jsx";
 
 function App() {
-  let nombre = "Emita"
+  let nombre = "Emita";
 
-  return <div> 
-    <h1>Hola {nombre} </h1>
-    <h2>como estas?</h2>
-    <Footer/>
-  </div>;
-  
+  return (
+    <div>
+      <Home />
+      <Navbar />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
