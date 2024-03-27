@@ -4,18 +4,7 @@
   box-sizing: border-box;
 }
 
-h1 {
-  size: 30rem;
-  text-align: center;
-  margin: 10rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-}
-
-h3 {
-  size: 1px;
-}
-h2 {
+h5 {
   font-size: x-small;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: red;

@@ -1,4 +1,5 @@
 import { FaCartShopping } from "react-icons/fa6";
+import "./Navbar.css";
 
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -28,9 +29,8 @@ function BasicExample() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        <FaCartShopping size={30} /> <h2>5</h2>
+        <FaCartShopping size={30} /> <h5>5</h5>
       </Container>
-      
     </Navbar>
   );
 }
